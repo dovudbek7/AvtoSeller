@@ -1,5 +1,5 @@
 * {
-  margin: 0px 0px;
+  margin: 0px ;
   padding: 0px;
   box-sizing: border-box;
   max-width: 450px;
@@ -191,7 +191,7 @@ swiper-slide img {
 }
 .home,.like, .plus, i{
     font-size: 25px;
-    color: rgb(255, 0, 0);
+    color: black;
 }
 .home,.like, .plus, p{
     font-size: 20px;
