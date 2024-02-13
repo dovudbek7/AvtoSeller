@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Landing_page</title>
+  <link rel="stylesheet" href="./Landing_Page/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+  <nav>
+    <p class>AvtoSeller</p>
+  </nav>
+
+  <div class="banner">
+    <p>O'z vaqtingizni asrang</p>
+  </div>
+
+  <a href="./search/search.html">
+    <div class="search">
+      <i style="color: white" class="bx bx-search-alt-2"></i>
+      <p>Qidirish</p>
+    </div>
+  </a>
+
+  <div class="card">
+    <div class="images" onclick="document.location='../card/card.html'">
+      <swiper-container class="mySwiper" pagination="true" pagination-clickable="true">
+        <swiper-slide><img src="../img/Banner.jpg" alt /></swiper-slide>
+        <swiper-slide><img src="../img/Banner.jpg" alt /></swiper-slide>
+        <swiper-slide><img src="../img/Banner.jpg" alt /></swiper-slide>
+        <swiper-slide><img src="../img/Banner.jpg" alt /></swiper-slide>
+      </swiper-container>
+
+      <button class="heart">
+        <a href="#"><i class="bx bx-heart"></i></a>
+      </button>
+    </div>
+    <hr />
+
+    <div class="texts" onclick="document.location='#'">
+      <p>2024 Chevrolet Spark</p>
+      <p>7 000$</p>
+      <div class="loaction">
+        <img src="../img/placeholder.png" alt />
+        <p>Toshkent</p>
+      </div>
+    </div>
+
+    <div class="btn">
+      <button ondblclick="document.location='tel:99999'">
+        <i style="color: white" class="bx bxs-phone-call"></i>
+        Qo'ng'iroq qilish
+      </button>
+    </div>
+  </div>
+
+  <div class="navbar">
+    <div class="home" onclick="document.location='#'">
+      <i class="bx bxs-home"></i>
+      <p>Home</p>
+    </div>
+    <div class="like" onclick="document.location='#'">
+      <i class="bx bxs-heart"></i>
+      <p>Liked</p>
+    </div>
+    <div class="plus" onclick="document.location='../Plus_page/page.html'">
+      <i class="bx bxs-plus-circle"></i>
+      <p>Plus</p>
+    </div>
+  </div>
+
+  <br /><br /><br /><br /><br /><br />
+
+  <script>
+    import Swiper from "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs";
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+</body>
+
+</html>
