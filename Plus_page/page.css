@@ -1,0 +1,81 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    max-width: 450px;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+}
+
+nav i {
+    font-size: 25px;
+    margin: 10px;
+    margin-top: 10px;
+    margin-left: 3%;
+    color: blue;
+}
+
+nav p {
+    font-weight: 200;
+    margin-top: 13px;
+    font-size: 20px;
+}
+
+.btn {
+    margin-top: 20px;
+    margin-left: 5%;
+    display: flex;
+}
+
+.btn button {
+    width: 44%;
+    height: 40px;
+    border-radius: 29px;
+    border: 1px solid blue;
+    background-color: white;
+    margin: 5px;
+    color: blue;
+    font-size: 15px;
+}
+
+.btn button:active {
+    transform: scale(0.9, 0.9);
+}
+
+.cards {
+    margin-left: 5%;
+}
+
+.car {
+    margin-top: 10px;
+    width: 90%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    padding-left: 2%;
+    border-radius: 5px;
+    position: relative;
+    justify-content: space-between;
+}
+
+.car p {
+    padding: 10px;
+}
+
+.icon {
+    padding: 10px;
+    display: flex;
+}
+
+.icon img {
+    width: 25px;
+    margin-left: 10px;
+}
+.icon img:active{
+    transform: scale(0.9,0.9);
+}

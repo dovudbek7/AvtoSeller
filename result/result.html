@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="result.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+    <nav>
+        <i onclick="document.location='../Landing_page/index.html'" class="bx bx-arrow-back"></i>
+        <p>Natijalar</p>
+    </nav>
+
+    <div class="card">
+        <div class="images" onclick="document.location='../card/card.html'">
+            <swiper-container class="mySwiper" pagination="true" pagination-clickable="true">
+                <swiper-slide><img src="../img/Banner.jpg" alt /></swiper-slide>
+                <swiper-slide><img src="../img/Banner.jpg" alt /></swiper-slide>
+                <swiper-slide><img src="../img/Banner.jpg" alt /></swiper-slide>
+                <swiper-slide><img src="../img/Banner.jpg" alt /></swiper-slide>
+            </swiper-container>
+
+            <button class="heart">
+                <a href="#"><i class="bx bx-heart"></i></a>
+            </button>
+        </div>
+        <hr />
+
+        <div class="texts" onclick="document.location='#'">
+            <p>2024 Chevrolet Spark</p>
+            <p>7 000$</p>
+            <div class="loaction">
+                <img src="../img/placeholder.png" alt />
+                <p>Toshkent</p>
+            </div>
+        </div>
+
+        <div class="btn">
+            <button ondblclick="document.location='tel:99999'">
+                <i style="color: white" class="bx bxs-phone-call"></i>
+                Qo'ng'iroq qilish
+            </button>
+        </div>
+    </div>
+
+    <script>
+        import Swiper from "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs";
+      </script>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,124 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    max-width: 450px;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+}
+
+nav i {
+    font-size: 25px;
+    margin: 10px;
+    margin-top: 10px;
+    margin-left: 3%;
+    color: blue;
+}
+
+nav p {
+    font-weight: 200;
+    margin-top: 13px;
+    font-size: 20px;
+}
+
+swiper-container {
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 5px;
+    height: 100%;
+}
+
+swiper-slide {
+    width: 100px;
+    height: 300px;
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+swiper-slide img {
+    border-radius: 10px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 2px;
+}
+
+.img {
+    margin-top: 20px;
+}
+
+.img input {
+    display: none;
+}
+
+.img label {
+    margin-top: 20px;
+    background-color: #e3362c;
+    color: white;
+    padding: 5%;
+    border-radius: 5px;
+    font-size: 90%;
+    margin-left: 28%;
+}
+
+.Selects {
+    margin-left: 5%;
+    margin-top: 40px;
+    width: 95%;
+}
+
+#cars {
+    margin-top: 10px;
+    padding: 10px;
+    width: 95%;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.name {
+    margin-left: 5%;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.input {
+    width: 90%;
+    margin-left: 5%;
+    height: 40px;
+    padding-left: 10px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.other {
+    height: 50px;
+}
+
+
+button {
+    width: 90%;
+    margin-left: 5%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+    /* bottom: 10%; */
+    /* position: fixed; */
+    background-color: #72A1FD;
+    color: white;
+    font-size: 20px;
+}
+
+button:active {
+    transform: scale(0.9, 0.9);
+}

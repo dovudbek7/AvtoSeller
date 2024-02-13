@@ -1,140 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="card.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Itim&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
-  </head>
-  <body>
-    <nav>
-      <i onclick="document.location='../Landing_page/index.html'" class="bx bx-arrow-back"></i>
-    </nav>
 
-    <swiper-container
-      class="mySwiper"
-      pagination="true"
-      pagination-clickable="true"
-    >
-      <swiper-slide><img src="../img/Banner.jpg" alt /></swiper-slide>
-      <swiper-slide><img src="../img/Banner.jpg" alt /></swiper-slide>
-      <swiper-slide><img src="../img/Banner.jpg" alt /></swiper-slide>
-      <swiper-slide><img src="../img/Banner.jpg" alt /></swiper-slide>
-    </swiper-container>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="card.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
 
-    <div class="cost">
-      <div class>
-        <p>2024 Chevrolet Spark</p>
-        <p>7 000$</p>
-      </div>
-      <div class>
-        <a href>
-          <i class="bx bx-heart"></i>
-        </a>
-      </div>
+<body>
+  <nav>
+    <i onclick="document.location='../Landing_page/index.html'" class="bx bx-arrow-back"></i>
+  </nav>
+
+  <swiper-container class="mySwiper" pagination="true" pagination-clickable="true">
+    <swiper-slide><img src="../img/Banner.jpg" alt /></swiper-slide>
+    <swiper-slide><img src="../img/Banner.jpg" alt /></swiper-slide>
+    <swiper-slide><img src="../img/Banner.jpg" alt /></swiper-slide>
+    <swiper-slide><img src="../img/Banner.jpg" alt /></swiper-slide>
+  </swiper-container>
+
+  <div class="cost">
+    <div class>
+      <p>2024 Chevrolet Spark</p>
+      <p>7 000$</p>
+    </div>
+    <div class>
+      <a href>
+        <i class="bx bx-heart"></i>
+      </a>
+    </div>
+  </div>
+  <hr />
+
+  <div class="info">
+    <div class>
+      <p>Brend</p>
+      <br />
+      <p>Name</p>
+      <br />
+      <p>Adress:</p>
+      <br />
+      <p>Date:</p>
+      <br />
+      <p>Tell:</p>
+      <br />
+      <p>Others:</p>
+      <br />
+    </div>
+    <div class>
+      <p>Chevrolet</p>
+      <br />
+      <p>Spark</p>
+      <br />
+      <p>Toshkent</p>
+      <br />
+      <p>2024</p>
+      <br />
+      <p>+998-99-999-99-99</p>
+      <br />
+    </div>
+  </div>
+
+  <div class="others">
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta
+      molestias ad inventore autem ab voluptatibus.
+    </p>
+  </div>
+  <div class="btn">
+    <button ondblclick="document.location='tel:99999'">
+      <i style="color: white" class="bx bxs-phone-call"></i>
+      Qo'ng'iroq qilish
+    </button>
+  </div>
+
+  <div class="liked">
+    <p>Shunga o'xshashlar:</p>
+  </div>
+
+  <div class="card">
+    <div class="images" onclick="document.location='#'">
+      <swiper-container class="mySwiper" pagination="true" pagination-clickable="true">
+        <swiper-slide><img src="../img/Banner.jpg" alt /></swiper-slide>
+        <swiper-slide><img src="../img/Banner.jpg" alt /></swiper-slide>
+        <swiper-slide><img src="../img/Banner.jpg" alt /></swiper-slide>
+        <swiper-slide><img src="../img/Banner.jpg" alt /></swiper-slide>
+      </swiper-container>
+
+      <button class="heart">
+        <a href="#"><i class="bx bx-heart"></i></a>
+      </button>
     </div>
     <hr />
 
-    <div class="info">
-      <div class>
-        <p>Brend</p>
-        <br />
-        <p>Name</p>
-        <br />
-        <p>Adress:</p>
-        <br />
-        <p>Date:</p>
-        <br />
-        <p>Tell:</p>
-        <br />
-        <p>Others:</p>
-        <br />
-      </div>
-      <div class>
-        <p>Chevrolet</p>
-        <br />
-        <p>Spark</p>
-        <br />
+    <div class="texts" onclick="document.location='#'">
+      <p>2024 Chevrolet Spark</p>
+      <p>7 000$</p>
+      <div class="loaction">
+        <img src="../img/placeholder.png" alt />
         <p>Toshkent</p>
-        <br />
-        <p>2024</p>
-        <br />
-        <p>+998-99-999-99-99</p>
-        <br />
       </div>
     </div>
 
-    <div class="others">
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta
-        molestias ad inventore autem ab voluptatibus.
-      </p>
-    </div>
     <div class="btn">
       <button ondblclick="document.location='tel:99999'">
         <i style="color: white" class="bx bxs-phone-call"></i>
         Qo'ng'iroq qilish
       </button>
     </div>
+  </div>
 
-    <div class="liked">
-      <p>Shunga o'xshashlar:</p>
-    </div>
+  <br /><br /><br /><br /><br /><br />
+  <script>
+    import Swiper from "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs";
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+</body>
 
-    <div class="card">
-      <div class="images" onclick="document.location='#'">
-        <swiper-container
-          class="mySwiper"
-          pagination="true"
-          pagination-clickable="true"
-        >
-          <swiper-slide><img src="../img/Banner.jpg" alt /></swiper-slide>
-          <swiper-slide><img src="../img/Banner.jpg" alt /></swiper-slide>
-          <swiper-slide><img src="../img/Banner.jpg" alt /></swiper-slide>
-          <swiper-slide><img src="../img/Banner.jpg" alt /></swiper-slide>
-        </swiper-container>
-
-        <button class="heart">
-          <a href="#"><i class="bx bx-heart"></i></a>
-        </button>
-      </div>
-      <hr />
-
-      <div class="texts" onclick="document.location='#'">
-        <p>2024 Chevrolet Spark</p>
-        <p>7 000$</p>
-        <div class="loaction">
-          <img src="../img/placeholder.png" alt />
-          <p>Toshkent</p>
-        </div>
-      </div>
-
-      <div class="btn">
-        <button ondblclick="document.location='tel:99999'">
-          <i style="color: white" class="bx bxs-phone-call"></i>
-          Qo'ng'iroq qilish
-        </button>
-      </div>
-    </div>
-
-    <br /><br /><br /><br /><br /><br/>
-    <script>
-      import Swiper from "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs";
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
-  </body>
 </html>

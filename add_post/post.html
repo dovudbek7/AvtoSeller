@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="post.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+    <nav>
+        <i onclick="document.location='../Landing_page/index.html'" class="bx bx-arrow-back"></i>
+        <p>Obuna qo'shish</p>
+    </nav>
+    
+
+    <div class="img">
+        <swiper-container class="mySwiper" pagination="true" pagination-clickable="true">
+            <swiper-slide><img id="profile-pic0" src="../img/Banner.jpg"></swiper-slide>
+            <swiper-slide><img id="profile-pic1" src="../img/Banner.jpg"></swiper-slide>
+            <swiper-slide><img id="profile-pic2" src="../img/Banner.jpg"></swiper-slide>
+            <swiper-slide><img id="profile-pic3" src="../img/Banner.jpg"></swiper-slide>
+        </swiper-container>
+        <br> <br>
+        <label for="input-file">Rasmni yuklang</label>
+        <br> 
+        <input type="file" name="" multiple="2" accept="image/jpeg image/png image/png " id="input-file">
+
+    </div>
+
+    
+    <div class="Selects">
+        
+        <select name="cars" id="cars">
+            <option value="#">Brand name:</option>
+            <option value="Chevrolet">Chevrolet</option>
+            <option value="Kia">Kia</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+        </select>
+        
+        <select name="cars" id="cars">
+            <option value="#">Cars:</option>
+            <option value="Gentra">Gentra</option>
+            <option value="Lacetti">Lacetti</option>
+            <option value="Matic">Matiz</option>
+            <option value="Onix">Onix</option>
+        </select>
+    </div>
+
+   <form action="">
+
+    <p class="name">Narxi</p>
+    <input type="num" placeholder="Narxi" class="input" id="input" required oninvalid="this.se('name ?')">
+    <p class="name">Adress</p>
+    <input type="text" placeholder="Adress" class="input">
+    <p class="name">Yili</p>
+    <input type="year" placeholder="Yili" class="input" required>
+    <p class="name">Tell</p>
+    <input type="tell" placeholder="Tell" class="input" required>
+    <p class="name">Boshqalar</p>
+    <textarea name="" id="" cols="30" rows="10" class="input other"></textarea> 
+    <button onclick="" id="input" >Submit</button>
+
+   </form>
+
+    <br><br><br><br><br>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js">
+        import Swiper from "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs";
+    </script>
+</body>
+
+</html>

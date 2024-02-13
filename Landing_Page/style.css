@@ -1,5 +1,5 @@
 * {
-  margin: 0px ;
+  margin: 0px;
   padding: 0px;
   box-sizing: border-box;
   max-width: 450px;
@@ -13,6 +13,7 @@ nav {
   max-width: 450px;
   justify-content: space-between;
 }
+
 nav p {
   font-size: 25px;
   margin-top: 10px;
@@ -28,6 +29,7 @@ nav p {
   width: 100%;
   height: 200px;
 }
+
 .banner p {
   color: #dbff00;
   font-style: 20px;
@@ -35,6 +37,7 @@ nav p {
   padding-top: 178px;
   margin-left: 1%;
 }
+
 .search {
   width: 80%;
   height: 50px;
@@ -56,6 +59,7 @@ nav p {
   font-size: 140%;
   width: 60px;
 }
+
 .search:active {
   background-color: #2979ae;
   transform: scale(0.9, 0.9);
@@ -66,6 +70,7 @@ nav p {
   font-size: 25px;
   margin-top: 10px;
 }
+
 .search i {
   margin-top: 12px;
   font-size: 25px;
@@ -96,6 +101,7 @@ swiper-slide {
   justify-content: center;
   border-radius: 15px;
 }
+
 .images {
   border-radius: 10px;
   padding: 5px;
@@ -109,6 +115,7 @@ swiper-slide img {
   border-radius: 10px 10px 0 0;
   padding: 2px;
 }
+
 .heart {
   width: 30px;
   height: 30px;
@@ -121,22 +128,27 @@ swiper-slide img {
   position: relative;
   z-index: 1;
 }
+
 .heart i {
   font-size: 20px;
   margin-top: 3px;
 }
+
 .texts {
   padding-left: 15px;
 }
+
 .texts p:first-child {
   font-size: 15px;
   margin-top: 20px;
 }
+
 .texts p:nth-child(2) {
   font-size: 25px;
   margin-top: 10px;
   font-weight: 700;
 }
+
 .texts p:last-child {
   font-size: 20px;
   padding-top: 5px;
@@ -149,50 +161,65 @@ swiper-slide img {
   display: flex;
   margin-top: 15px;
 }
+
 .loaction img {
   width: 25px;
   height: 25;
 }
+
 .btn {
   width: 90%;
   margin-left: 5%;
   margin-top: 60px;
 }
+
 .btn button {
   width: 100%;
   height: 50px;
   border: none;
   border-radius: 10px;
   background-color: rgb(105, 0, 117);
-  font-size: 25px;
+  font-size: 20px;
   color: white;
-  
-}
-.btn button:active{
-    transform: scale(0.9,0.9);
 
 }
 
-.navbar{
-    width: 100%;
-    height: 70px;
-    background-color: #DEDEDE;
-    position: fixed;
-    top: 90%;
-    z-index: 1;
-    border-radius: 10px 10px 0 0;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
+.btn button:active {
+  transform: scale(0.9, 0.9);
+
 }
-.home,.like,.plus{
-    margin: 10%;
+
+.navbar {
+  width: 100%;
+  height: 70px;
+  background-color: #DEDEDE;
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+  border-radius: 10px 10px 0 0;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
-.home,.like, .plus, i{
-    font-size: 25px;
-    color: black;
+
+.home,
+.like,
+.plus {
+  margin: 10%;
 }
-.home,.like, .plus, p{
-    font-size: 20px;
+
+.home,
+.like,
+.plus,
+i {
+  font-size: 25px;
+  color: black;
+}
+
+.home,
+.like,
+.plus,
+p {
+  font-size: 20px;
 }
