@@ -14,6 +14,9 @@
 </head>
 
 <body>
+
+  <div id="hidden" style="display: none;">1</div>
+
   <nav>
     <p class>AvtoSeller</p>
   </nav>
@@ -25,10 +28,11 @@
   <a href="../search/search.html">
     <div class="search">
       <i style="color: white" class="bx bx-search-alt-2"></i>
-      <p>Qidirish</p>
+      <p class="p_search"></p>
     </div>
   </a>
 
+  
   <div class="card">
     <div class="images" onclick="document.location='../card/card.html'">
       <swiper-container class="mySwiper" pagination="true" pagination-clickable="true">
@@ -38,11 +42,12 @@
         <swiper-slide><img src="../img/Banner.jpg" alt /></swiper-slide>
       </swiper-container>
 
-      <button class="heart">
-        <a href="#"><i class="bx bx-heart"></i></a>
-      </button>
     </div>
-    <hr />
+    <hr/>
+
+    <button class="heart" onclick="myFunction()">
+      <a href="#"><i class="bx bx-heart" id="icon_heart"></i></a>
+    </button>
 
     <div class="texts" onclick="document.location='#'">
       <p>2024 Chevrolet Spark</p>
@@ -55,33 +60,38 @@
 
     <div class="btn">
       <button ondblclick="document.location='tel:99999'">
-        <i style="color: white" class="bx bxs-phone-call"></i>
-        Qo'ng'iroq qilish
+        <i style="color: white" class="bx bxs-phone-call"> </i>
+        <i class="tr_btn" style="color: white" class="bx bxs-phone-call"> </i>
       </button>
     </div>
   </div>
-
+  <button class="btn_up" onclick="document.location='#'">
+    <i class='bx bx-chevron-up'></i>
+  </button>
+  
   <div class="navbar">
     <div class="home" onclick="document.location='#'">
       <i class="bx bxs-home"></i>
-      <p>Home</p>
+      <p id="home">Home</p>
     </div>
     <div class="like" onclick="document.location='#'">
       <i class="bx bxs-heart"></i>
-      <p>Liked</p>
+      <p id="liked">Liked</p>
     </div>
     <div class="plus" onclick="document.location='../Plus_page/page.html'">
       <i class="bx bxs-plus-circle"></i>
-      <p>Plus</p>
+      <p id="plus">Plus</p>
     </div>
   </div>
 
   <br /><br /><br /><br /><br /><br />
-
+  
   <script>
     import Swiper from "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs";
   </script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+  <script src="translate.js">
+  </script>
 </body>
 
 </html>

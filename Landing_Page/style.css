@@ -50,6 +50,17 @@ nav p {
   color: white;
 }
 
+.card {
+  width: 90%;
+  padding-bottom: 20px;
+  height: auto;
+  margin-left: 5%;
+  margin-top: 50px;
+  border-radius: 10px;
+  border: 1px solid rgb(178, 176, 176);
+  align-items: center;
+}
+
 .search:before {
   position: absolute;
   height: 100%;
@@ -78,7 +89,8 @@ nav p {
 
 .card {
   width: 90%;
-  height: 470px;
+  padding-bottom: 20pxy;
+  height: auto;
   margin-left: 5%;
   margin-top: 50px;
   border-radius: 10px;
@@ -88,6 +100,7 @@ nav p {
 
 swiper-container {
   width: 100%;
+  z-index: -1;
   height: 100%;
 }
 
@@ -100,6 +113,7 @@ swiper-slide {
   display: flex;
   justify-content: center;
   border-radius: 15px;
+  
 }
 
 .images {
@@ -114,6 +128,7 @@ swiper-slide img {
   object-fit: cover;
   border-radius: 10px 10px 0 0;
   padding: 2px;
+
 }
 
 .heart {
@@ -123,16 +138,19 @@ swiper-slide img {
   background: #ffff;
   border-radius: 50%;
   float: right;
-  margin-top: -185px;
+  margin-top: 10px;
   margin-right: 15px;
   position: relative;
   z-index: 1;
 }
 
 .heart i {
-  font-size: 20px;
-  margin-top: 3px;
+  font-size: 25px;
+  margin-top: 5px;
 }
+/* .heart i{
+  color: red;
+} */
 
 .texts {
   padding-left: 15px;
@@ -181,9 +199,10 @@ swiper-slide img {
   background-color: rgb(105, 0, 117);
   font-size: 20px;
   color: white;
-
 }
-
+.btn button i{
+  font-style: normal;
+}
 .btn button:active {
   transform: scale(0.9, 0.9);
 
@@ -200,14 +219,15 @@ swiper-slide img {
   display: flex;
   align-items: center;
   text-align: center;
-  justify-content: center;
+  justify-content: space-around;
+
 }
 
-.home,
+/* .home,
 .like,
 .plus {
-  margin: 10%;
-}
+  margin: 2%;
+} */
 
 .home,
 .like,
@@ -221,5 +241,16 @@ i {
 .like,
 .plus,
 p {
-  font-size: 20px;
+  font-size: 17px;
+}
+
+.btn_up{
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  z-index: 1;
+  bottom: 80px;
+  margin-left: 2%;
 }
