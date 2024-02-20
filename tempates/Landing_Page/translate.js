@@ -39,20 +39,77 @@ if (hide == 1) {
 else {
     let search = document.querySelector(".p_search");
     search.textContent = data.uz.search;
-    
+
     let tell = document.querySelector(".tr_btn");
     tell.textContent = data.uz.tell;
-    
+
     let home = document.getElementById("home");
     home.textContent = data.uz.home;
-    
+
     let liked = document.getElementById("liked");
     liked.textContent = data.uz.liked;
-    
+
     let plus = document.getElementById("plus");
     plus.textContent = data.uz.plus;
 }
-let heart = "muvofaqiyatli saqalandi";
+
+let like = document.getElementById('icon_heart');
 function myFunction() {
-    document.getElementById('icon_heart').classList = 'bx bxs-heart';
+    if (like.classList == "bx bx-heart") {
+        like.classList = "bx bxs-heart"
+    }
+    else {
+        like.classList = "bx bx-heart"
+    }
 }
+
+let home = document.getElementById("home_i");
+let liked = document.getElementById("like_i");
+let plus = document.getElementById("plus_i");
+function homeFunction(){
+    if (home.classList == "bx bx-home") {
+        home.classList = "bx bxs-home-alt-2"
+        liked.classList = "bx bx-heart"
+        plus.classList = "bx bx-plus-circle"
+    }
+    else {
+        home.classList = "bx bx-home"
+    }
+}
+
+function likeFunction(){
+    if (liked.classList == "bx bx-heart") {
+        liked.classList = "bx bxs-heart"
+        home.classList = "bx bx-home"
+        plus.classList = "bx bx-plus-circle"
+    }
+    else {
+        liked.classList = "bx bx-heart"
+    }
+}
+function plusFunction(){
+    if (plus.classList == "bx bx-plus-circle") {
+        plus.classList = "bx bxs-plus-circle"
+        liked.classList = "bx bx-heart"
+        home.classList = "bx bx-home"
+
+    }
+    else {
+        plus.classList = "bx bx-plus-circle"
+    }
+}
+
+
+
+
+
+
+const toTop = document.querySelector(".to-top");
+
+window.addEventListener("scroll", () => {
+    if (window.pageYOffset > 100) {
+        toTop.classList.add("active");
+    } else {
+        toTop.classList.remove("active");
+    }
+})
