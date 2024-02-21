@@ -65,7 +65,7 @@ function myFunction() {
 let home = document.getElementById("home_i");
 let liked = document.getElementById("like_i");
 let plus = document.getElementById("plus_i");
-function homeFunction(){
+function homeFunction() {
     if (home.classList == "bx bx-home") {
         home.classList = "bx bxs-home-alt-2"
         liked.classList = "bx bx-heart"
@@ -76,7 +76,7 @@ function homeFunction(){
     }
 }
 
-function likeFunction(){
+function likeFunction() {
     if (liked.classList == "bx bx-heart") {
         liked.classList = "bx bxs-heart"
         home.classList = "bx bx-home"
@@ -86,7 +86,7 @@ function likeFunction(){
         liked.classList = "bx bx-heart"
     }
 }
-function plusFunction(){
+function plusFunction() {
     if (plus.classList == "bx bx-plus-circle") {
         plus.classList = "bx bxs-plus-circle"
         liked.classList = "bx bx-heart"
