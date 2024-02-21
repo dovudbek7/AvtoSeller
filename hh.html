@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+<body>   
+
+<select id="car" onchange="ChangeCarList()"> 
+  <option value="">-- Car --</option> 
+  {% for car_brand in car_brands %}
+    <option value="{{ car_brand }}">{{ car_brand }}</option> 
+  {% endfor %}
+</select> 
+
+<select id="carmodel" style="width: 200;"></select> 
+
+<script>
+function ChangeCarList() {
+  var carList = document.getElementById("car");
+  var modelList = document.getElementById("carmodel");
+  var selCarBrand = carList.options[carList.selectedIndex].value;
+  
+  var x = document.createElement("OPTION");
+  x.setAttribute("value", "volvocar");
+ 
+  let arr = modelList.document.createElement("option")
+  arr.innerText("salom")
+  const para = document.createElement("p");
+  para.innerText = "This is a paragraph.";
+  
+} 
+</script>
+
+</body>
+</html>

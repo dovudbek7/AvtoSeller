@@ -15,7 +15,6 @@ var data = {
         "plus": "дабавит",
         "tell": "позвонить"
     },
-
 }
 let hide = document.getElementById("hidden").innerHTML;
 console.log(hide);
@@ -92,20 +91,13 @@ function plusFunction(){
         plus.classList = "bx bxs-plus-circle"
         liked.classList = "bx bx-heart"
         home.classList = "bx bx-home"
-
     }
     else {
         plus.classList = "bx bx-plus-circle"
     }
 }
 
-
-
-
-
-
 const toTop = document.querySelector(".to-top");
-
 window.addEventListener("scroll", () => {
     if (window.pageYOffset > 100) {
         toTop.classList.add("active");
