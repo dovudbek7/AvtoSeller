@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Document</title>
-  <link rel="stylesheet" href="card.css" />
+  <link rel="stylesheet" href="../css/card.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet" />
@@ -14,8 +14,10 @@
 </head>
 
 <body>
+  <div id="hidden" style="display: none;">1</div>
+
   <nav>
-    <i onclick="document.location='../Landing_page/index.html'" class="bx bx-arrow-back"></i>
+    <i onclick="document.location='index.html'" class="bx bx-arrow-back"></i>
   </nav>
 
   <swiper-container class="mySwiper" pagination="true" pagination-clickable="true">
@@ -26,31 +28,31 @@
   </swiper-container>
 
   <div class="cost">
-    <div class>
+    <div>
       <p>2024 Chevrolet Spark</p>
       <p>7 000$</p>
     </div>
-    <div class>
-      <a href>
-        <i class="bx bx-heart"></i>
-      </a>
+    <div>
+      <button class="heart" onclick="myFunction(this)">
+        <i class="bx bx-heart icon_heart"></i>
+      </button>
     </div>
   </div>
   <hr />
 
   <div class="info">
     <div class>
-      <p>Brend</p>
+      <p id="brend">Brend</p>
       <br />
-      <p>Name</p>
+      <p id="model">Name</p>
       <br />
-      <p>Adress:</p>
+      <p id="adress">Adress:</p>
       <br />
-      <p>Date:</p>
+      <p id="date">Date:</p>
       <br />
       <p>Tell:</p>
       <br />
-      <p>Others:</p>
+      <p id="others">Others:</p>
       <br />
     </div>
     <div class>
@@ -74,14 +76,14 @@
     </p>
   </div>
   <div class="btn">
-    <button ondblclick="document.location='tel:99999'">
-      <i style="color: white" class="bx bxs-phone-call"></i>
-      Qo'ng'iroq qilish
+    <button onclick="document.location='tel:99999'">
+      <i style="color: white" class="bx bxs-phone-call"> </i>
+      <i class="tr_btn" style="color: white" class="bx bxs-phone-call"> </i>
     </button>
   </div>
 
   <div class="liked">
-    <p>Shunga o'xshashlar:</p>
+    <p id="like_that">Shunga o'xshashlar:</p>
   </div>
 
   <div class="card">
@@ -93,12 +95,11 @@
         <swiper-slide><img src="../img/Banner.jpg" alt /></swiper-slide>
       </swiper-container>
 
-      <button class="heart">
-        <a href="#"><i class="bx bx-heart"></i></a>
-      </button>
     </div>
     <hr />
-
+    <button class="heart" onclick="myFunction(this)">
+      <i class="bx bx-heart icon_heart"></i>
+    </button>
     <div class="texts" onclick="document.location='#'">
       <p>2024 Chevrolet Spark</p>
       <p>7 000$</p>
@@ -110,8 +111,8 @@
 
     <div class="btn">
       <button ondblclick="document.location='tel:99999'">
-        <i style="color: white" class="bx bxs-phone-call"></i>
-        Qo'ng'iroq qilish
+        <i style="color: white" class="bx bxs-phone-call"> </i>
+        <i class="tr_btn" style="color: white" class="bx bxs-phone-call"> </i>
       </button>
     </div>
   </div>
@@ -121,6 +122,7 @@
     import Swiper from "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs";
   </script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+  <script src="../js/card.js"></script>
 </body>
 
 </html>

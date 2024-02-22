@@ -1,42 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="subscribe.css" />
+    <link rel="stylesheet" href="../css/subscribe.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet" />
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
+
 <body>
+    <div id="hidden" style="display: none;">1</div>
+
     <nav>
-        <i onclick="document.location='../Landing_page/index.html'" class="bx bx-arrow-back"></i>
-        <p>Subscribe</p>
+        <i onclick="document.location='index.html'" class="bx bx-arrow-back"></i>
+        <p id="header">Subscribe</p>
     </nav>
 
     <div class="Selects">
 
-        <select name="cars" id="cars">
-            <option value="#">Brand name:</option>
-            <option value="Chevrolet">Chevrolet</option>
-            <option value="Kia">Kia</option>
-            <option value="mercedes">Mercedes</option>
-            <option value="audi">Audi</option>
+        <select id="car" onchange="ChangeCarList()" class="brands">
+            <option value="brends" id="brends">Brands</option>
+            {% for car_brand in car_brands %}
+            <option value="{{ car_brand }}">{{ car_brand }}</option>
+            {% endfor %}
         </select>
-
-        <select name="cars" id="cars">
-            <option value="#">Cars:</option>
-            <option value="Gentra">Gentra</option>
-            <option value="Lacetti">Lacetti</option>
-            <option value="Matic">Matiz</option>
-            <option value="Onix">Onix</option>
+        <select class="brands" id="carmodel">
+            <option value="cars" id="model">All</option>
         </select>
     </div>
 
-    <button onclick="document.location='../Plus_page/page.html'">Submit</button>
+    <button onclick="document.location='page.html'" id="submit">Submit</button>
 
+    <script src="../js/subscribe.js"></script>
 </body>
+
 </html>

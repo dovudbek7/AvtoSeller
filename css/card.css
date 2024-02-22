@@ -17,28 +17,6 @@ nav i {
   color: blue;
 }
 
-swiper-container {
-  width: 100%;
-  height: 100%;
-}
-
-swiper-slide {
-  width: 100px;
-  height: 300px;
-  text-align: center;
-  font-size: 18px;
-  display: flex;
-  justify-content: center;
-  border-radius: 15px;
-}
-swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  padding: 2px;
-}
-
 .cost {
   padding-left: 5%;
   display: flex;
@@ -58,7 +36,8 @@ swiper-slide img {
 .cost div:last-child i {
   font-size: 25px;
   margin-left: -50px;
-  font-weight: 900;
+  font-weight: 500;
+  color: black;
 }
 
 .info {
@@ -86,11 +65,13 @@ swiper-slide img {
   padding: 7%;
   font-size: 17px;
 }
+
 .btn {
   width: 90%;
   margin-left: 5%;
-  margin-top: 30px;
+  margin-top: 60px;
 }
+
 .btn button {
   width: 100%;
   height: 50px;
@@ -100,8 +81,12 @@ swiper-slide img {
   font-size: 20px;
   color: white;
 }
+.btn button i{
+  font-style: normal;
+}
 .btn button:active {
   transform: scale(0.9, 0.9);
+
 }
 
 .liked {
@@ -117,9 +102,10 @@ swiper-slide img {
 
 .card {
   width: 90%;
-  height: 530px;
+  padding-bottom: 20px;
+  height: auto;
   margin-left: 5%;
-  margin-top: 50px;
+  margin-top: 35px;
   border-radius: 10px;
   border: 1px solid rgb(178, 176, 176);
   align-items: center;
@@ -130,7 +116,7 @@ swiper-slide img {
   padding: 5px;
 }
 
-.card {
+/* .card {
   width: 90%;
   height: 440px;
   margin-left: 5%;
@@ -138,7 +124,7 @@ swiper-slide img {
   border-radius: 10px;
   border: 1px solid rgb(178, 176, 176);
   align-items: center;
-}
+} */
 
 swiper-container {
   width: 100%;
@@ -175,13 +161,14 @@ swiper-slide img {
   background: #ffff;
   border-radius: 50%;
   float: right;
-  margin-top: -185px;
+  margin-top: 18px;
   margin-right: 15px;
   position: relative;
   z-index: 1;
 }
 .heart i {
-  font-size: 20px;
+  color: black;
+  font-size: 25px;
   margin-top: 3px;
 }
 .texts {
@@ -212,3 +199,4 @@ swiper-slide img {
   width: 25px;
   height: 25;
 }
+

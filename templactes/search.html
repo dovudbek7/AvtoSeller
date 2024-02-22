@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="search.css">
+    <link rel="stylesheet" href="../css/search.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet" />
@@ -14,33 +14,26 @@
 </head>
 
 <body>
-
+    <div id="hidden" style="display: none;">1</div>
 
     <nav>
-        <i onclick="document.location='../Landing_page/index.html'" class="bx bx-arrow-back"></i>
-        <p>Qidirish</p>
+        <i onclick="document.location='index.html'" class="bx bx-arrow-back"></i>
+        <p id="search">Qidirish</p>
     </nav>
-
 
     <div class="Selects">
 
-        <select name="cars" id="cars">
-            <option value="#">Brand name:</option>
-            <option value="Chevrolet">Chevrolet</option>
-            <option value="Kia">Kia</option>
-            <option value="mercedes">Mercedes</option>
-            <option value="audi">Audi</option>
+        <select id="car" onchange="ChangeCarList()" class="brands">
+            <option value="brends" id="brends">Brands</option>
+            {% for car_brand in car_brands %}
+            <option value="{{ car_brand }}">{{ car_brand }}</option>
+            {% endfor %}
         </select>
-
-        <select name="cars" id="cars">
-            <option value="#">Cars:</option>
-            <option value="Gentra">Gentra</option>
-            <option value="Lacetti">Lacetti</option>
-            <option value="Matic">Matiz</option>
-            <option value="Onix">Onix</option>
+        <select class="brands" id="carmodel">
+            <option value="cars" id="model">All</option>
         </select>
-        <select name="cars" id="cars">
-            <option value="#">Adress</option>
+        <select name="cars" id="cars" class="brands">
+            <option value="#" id="adress">Adress</option>
             <option value="Gentra">Toshkent</option>
             <option value="Lacetti">Andijon</option>
             <option value="Matic">Jizzax</option>
@@ -48,26 +41,26 @@
     </div>
 
     <div class="hr"></div>
-    
+
     <div class="inputs">
-        <label for="price">Price</label><br>
-        <input type="text" name="" id="price" placeholder="from">
-        <input type="text" name="" id="" placeholder="to">
+        <label for="price" id="price">Price</label><br>
+        <input type="text" name="" id="from" placeholder="from">
+        <input type="text" name="" id="to" placeholder="to">
     </div>
-    
-    <div class="hr"></div>
-    
-    <div class="inputs">
-        <label for="year">Year</label><br>
-        <input type="text" name="" id="year" placeholder="from">
-        <input type="text" name="" id="" placeholder="to">
-    </div>
-    
+
     <div class="hr"></div>
 
-    <button onclick="document.location='../result/result.html'">Submit</button>
+    <div class="inputs">
+        <label for="year" id="year">Year</label><br>
+        <input type="text" name="" id="from2" placeholder="from">
+        <input type="text" name="" id="to2" placeholder="to">
+    </div>
 
+    <div class="hr"></div>
 
+    <button onclick="document.location='result.html'" id="submit">Submit</button>
+
+    <script src="../js/search.js"></script>
 </body>
 
 </html>

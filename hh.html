@@ -1,33 +1,13 @@
-
 <!DOCTYPE html>
-<html>
-<body>   
-
-<select id="car" onchange="ChangeCarList()"> 
-  <option value="">-- Car --</option> 
-  {% for car_brand in car_brands %}
-    <option value="{{ car_brand }}">{{ car_brand }}</option> 
-  {% endfor %}
-</select> 
-
-<select id="carmodel" style="width: 200;"></select> 
-
-<script>
-function ChangeCarList() {
-  var carList = document.getElementById("car");
-  var modelList = document.getElementById("carmodel");
-  var selCarBrand = carList.options[carList.selectedIndex].value;
-  
-  var x = document.createElement("OPTION");
-  x.setAttribute("value", "volvocar");
- 
-  let arr = modelList.document.createElement("option")
-  arr.innerText("salom")
-  const para = document.createElement("p");
-  para.innerText = "This is a paragraph.";
-  
-} 
-</script>
-
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POST Request Example</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="hh.js" defer></script>
+</head>
+<body>
+    <button id="myButton">Send POST Request</button>
 </body>
 </html>

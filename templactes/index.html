@@ -5,12 +5,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Landing_page</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="../css/style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet" />
   <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
 </head>
 
 <body>
@@ -24,7 +26,7 @@
     <p>O'z vaqtingizni asrang</p>
   </div>
 
-  <a href="../search/search.html">
+  <a href="search.html">
     <div class="search">
       <i style="color: white" class="bx bx-search-alt-2"></i>
       <p class="p_search"></p>
@@ -33,7 +35,7 @@
 
 
   <div class="card">
-    <div class="images" onclick="document.location='../card/card.html'">
+    <div class="images" onclick="document.location='card.html'">
       <swiper-container class="mySwiper" pagination="true" pagination-clickable="true">
         <swiper-slide><img src="../img/Banner.jpg" alt /></swiper-slide>
         <swiper-slide><img src="../img/Banner.jpg" alt /></swiper-slide>
@@ -44,8 +46,8 @@
     </div>
     <hr />
 
-    <button class="heart" onclick="myFunction()" id="heart">
-      <i class="bx bx-heart" id="icon_heart"></i>
+    <button class="heart" onclick="myFunction(this)" id="myButton">
+      <i class="bx bx-heart icon_heart"></i>
     </button>
 
     <div class="texts" onclick="document.location='#'">
@@ -58,7 +60,7 @@
     </div>
 
     <div class="btn">
-      <button ondblclick="document.location='tel:99999'">
+      <button onclick="document.location='tel:99999'">
         <i style="color: white" class="bx bxs-phone-call"> </i>
         <i class="tr_btn" style="color: white" class="bx bxs-phone-call"> </i>
       </button>
@@ -72,11 +74,11 @@
       <i id="home_i" class="bx bx-home"></i>
       <p id="home">Home</p>
     </div>
-    <div class="like" onclick="document.location='#',likeFunction()">
+    <div class="like" onclick="document.location='liked.html',likeFunction()">
       <i id="like_i" class="bx bx-heart"></i>
       <p id="liked">Liked</p>
     </div>
-    <div class="plus" onclick="document.location='../Plus_page/page.html',plusFunction()">
+    <div class="plus" onclick="document.location='page.html',plusFunction()">
       <i id="plus_i" class="bx bx-plus-circle"></i>
       <p id="plus">Plus</p>
     </div>
@@ -88,10 +90,9 @@
   </a>
 
   <br /><br /><br /><br /><br /><br />
-  <script src="translate.js">
-  
+  <script src="../js/translate.js">
   </script>
-  <script>
+  <script type="module">
     import Swiper from "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs";
   </script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>

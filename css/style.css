@@ -89,7 +89,7 @@ nav p {
 
 .card {
   width: 90%;
-  padding-bottom: 20pxy;
+  padding-bottom: 20px;
   height: auto;
   margin-left: 5%;
   margin-top: 50px;
@@ -100,7 +100,6 @@ nav p {
 
 swiper-container {
   width: 100%;
-  /* z-index: -1; */
   height: 100%;
 }
 
@@ -148,9 +147,6 @@ swiper-slide img {
   font-size: 25px;
   margin-top: 5px;
 }
-/* .heart i{
-  color: red;
-} */
 
 .texts {
   padding-left: 15px;

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="page.css" />
+    <link rel="stylesheet" href="../css/page.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet" />
@@ -14,20 +14,22 @@
 </head>
 
 <body>
+    <div id="hidden" style="display: none;">1</div>
+
 
     <nav>
-        <i onclick="document.location='../Landing_page/index.html'" class="bx bx-arrow-back"></i>
-        <p>Plus</p>
+        <i onclick="document.location='index.html'" class="bx bx-arrow-back"></i>
+        <p id="plus">Plus</p>
     </nav>
 
     <div class="btn">
-        <button onclick="document.location='../add_post/post.html'">E'lon berish</button>
-        <button onclick="document.location='../subscribe/subscribe.html'">Obuna bo'lish</button>
+        <button onclick="document.location='post.html'" id="give_subscribtion">E'lon berish</button>
+        <button onclick="document.location='subscribe.html'" id="give_post">Obuna bo'lish</button>
     </div>
     <br><br><br>
 
     <div class="cards">
-        <p>Posts</p>
+        <p id="posts">Posts</p>
         <div class="car">
             <p>2024 chevrolet spark</p>
             <div class="icon">
@@ -40,7 +42,7 @@
     <br><br><br>
 
     <div class="cards">
-        <p>Obunalar</p>
+        <p id="subscribtions">Obunalar</p>
         <div class="car">
             <p>2020 chevrolet spark</p>
             <div class="icon">
@@ -50,7 +52,7 @@
         </div>
     </div>
 
-
+    <script src="../js/plus.js"></script>
 </body>
 
 </html>
