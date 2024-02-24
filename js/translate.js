@@ -12,7 +12,7 @@ var data = {
         "search": "поиск",
         "home": "AvtoSeller",
         "liked": "понравши",
-        "plus": "дабавит",
+        "plus": "дабавить",
         "tell": "позвонить",
     },
 }
