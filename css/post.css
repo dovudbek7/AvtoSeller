@@ -52,31 +52,29 @@ swiper-slide img {
     padding: 2px;
 }
 
-.img {
+.post_img {
     margin-top: 20px;
 }
 
-.img input {
+.post_img input {
     display: none;
 }
 
-.img label {
+.post_img label {
     margin-top: 20px;
     background-color: #e3362c;
     color: white;
     padding: 5%;
     border-radius: 5px;
     font-size: 90%;
-    margin-left: 28%;
 }
-
-.Selects {
+.post_Selects {
     margin-left: 5%;
     margin-top: 40px;
     width: 95%;
 }
 
-#cars {
+#post_cars {
     margin-top: 10px;
     padding: 10px;
     width: 95%;
@@ -85,23 +83,24 @@ swiper-slide img {
     font-weight: 500;
 }
 
-.name {
+.post_name {
     margin-left: 5%;
     font-size: 18px;
     margin-top: 20px;
 }
 
-.input {
+.post_input {
     width: 90%;
     margin-left: 5%;
     height: 40px;
     padding-left: 10px;
     margin-top: 5px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
-.other {
+.post_other {
     height: 50px;
+    padding-top: 5px;
 }
 
 
@@ -112,8 +111,6 @@ button {
     border-radius: 10px;
     border: none;
     margin-top: 20px;
-    /* bottom: 10%; */
-    /* position: fixed; */
     background-color: #72A1FD;
     color: white;
     font-size: 20px;

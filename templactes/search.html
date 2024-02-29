@@ -21,45 +21,47 @@
         <p id="search">Qidirish</p>
     </nav>
 
-    <div class="Selects">
+    
+    <form action="" method="post">
+        <div class="search_Selects">
 
-        <select id="car" onchange="ChangeCarList()" class="brands">
-            <option value="brends" id="brends">Brands</option>
-            {% for car_brand in car_brands %}
-            <option value="{{ car_brand }}">{{ car_brand }}</option>
-            {% endfor %}
-        </select>
-        <select class="brands" id="carmodel">
-            <option value="cars" id="model">All</option>
-        </select>
-        <select name="cars" id="cars" class="brands">
-            <option value="#" id="adress">Adress</option>
-            <option value="Gentra">Toshkent</option>
-            <option value="Lacetti">Andijon</option>
-            <option value="Matic">Jizzax</option>
-        </select>
-    </div>
+            <select id="car" onchange="ChangeCarList()" class="search_brands">
+                <option value="brends" id="brends">Brands</option>
+                {% for car_brand in car_brands %}
+                <option value="{{ car_brand }}">{{ car_brand }}</option>
+                {% endfor %}
+            </select>
+            <select class="search_brands" id="carmodel">
+                <option value="cars" id="model">All</option>
+            </select>
+            <select name="cars" id="cars" class="search_brands">
+                <option value="#" id="adress">Adress</option>
+                <option value="Gentra">Toshkent</option>
+                <option value="Lacetti">Andijon</option>
+                <option value="Matic">Jizzax</option>
+            </select>
+        </div>
 
-    <div class="hr"></div>
+        <div class="search_hr"></div>
 
-    <div class="inputs">
-        <label for="price" id="price">Price</label><br>
-        <input type="text" name="" id="from" placeholder="from">
-        <input type="text" name="" id="to" placeholder="to">
-    </div>
+        <div class="search_inputs">
+            <label for="price" id="price">Price</label><br>
+            <input type="text" name="" id="from" placeholder="from">
+            <input type="text" name="" id="to" placeholder="to">
+        </div>
 
-    <div class="hr"></div>
+        <div class="hr"></div>
 
-    <div class="inputs">
-        <label for="year" id="year">Year</label><br>
-        <input type="text" name="" id="from2" placeholder="from">
-        <input type="text" name="" id="to2" placeholder="to">
-    </div>
+        <div class="search_inputs">
+            <label for="year" id="year">Year</label><br>
+            <input type="text" name="" id="from2" placeholder="from">
+            <input type="text" name="" id="to2" placeholder="to">
+        </div>
 
-    <div class="hr"></div>
+        <div class="hr"></div>
 
+    </form>
     <button onclick="document.location='result.html'" id="submit">Submit</button>
-
     <script src="../js/search.js"></script>
 </body>
 

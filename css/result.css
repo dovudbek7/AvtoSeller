@@ -8,7 +8,7 @@
 }
 
 
-.card {
+.result_card {
     width: 90%;
     height: 460px;
     margin-left: 5%;
@@ -34,7 +34,7 @@ swiper-slide {
     border-radius: 15px;
 }
 
-.images {
+.result_images {
     border-radius: 10px;
     padding: 5px;
 }
@@ -48,7 +48,7 @@ swiper-slide img {
     padding: 2px;
 }
 
-.heart {
+.result_heart {
     width: 30px;
     height: 30px;
     border: none;
@@ -61,52 +61,52 @@ swiper-slide img {
     z-index: 1;
 }
 
-.heart i {
+.result_heart i {
     color: black;
     font-size: 25px;
     margin-top: 3px;
 }
 
-.texts {
+.result_texts {
     padding-left: 15px;
 }
 
-.texts p:first-child {
+.result_texts p:first-child {
     font-size: 15px;
     margin-top: 20px;
 }
 
-.texts p:nth-child(2) {
+.result_texts p:nth-child(2) {
     font-size: 25px;
     margin-top: 10px;
     font-weight: 700;
 }
 
-.texts p:last-child {
+.result_texts p:last-child {
     font-size: 20px;
     padding-top: 5px;
     font-weight: normal;
     margin: 0;
 }
 
-.loaction {
+.result_loaction {
     margin-left: -5px;
     display: flex;
     margin-top: 15px;
 }
 
-.loaction img {
+.result_loaction img {
     width: 25px;
     height: 25;
 }
 
-.btn {
+.result_btn {
     width: 90%;
     margin-left: 5%;
     margin-top: 60px;
 }
 
-.btn button {
+.result_btn button {
     width: 100%;
     height: 50px;
     border: none;
@@ -116,7 +116,7 @@ swiper-slide img {
     color: white;
 }
 
-.btn button:active {
+.result_btn button:active {
     transform: scale(0.9, 0.9);
 }
 

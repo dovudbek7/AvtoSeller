@@ -26,12 +26,12 @@ nav p {
   font-size: 23px;
 }
 
-.Selects {
+.search_Selects {
   margin-left: 5%;
   margin-top: 20px;
 }
 
-.brands {
+.search_brands {
   margin-top: 10px;
   padding: 10px;
   width: 90%;
@@ -40,14 +40,14 @@ nav p {
   font-weight: 500;
 }
 
-.hr {
+.search_hr {
   width: 100%;
   height: 5px;
   margin-top: 20px;
   background-color: #EFEFEF;
 }
 
-.inputs {
+.search_inputs {
   margin-top: 20px;
   margin-left: 5%;
 }
@@ -56,7 +56,7 @@ label {
   font-size: 20px;
 }
 
-.inputs input {
+.search_inputs input {
   width: 44.4%;
   margin-top: 20px;
   height: 40px;

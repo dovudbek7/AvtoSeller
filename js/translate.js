@@ -127,7 +127,7 @@ function plusFunction() {
     }
 }
 
-const toTop = document.querySelector(".to-top");
+const toTop = document.querySelector(".main_to-top");
 window.addEventListener("scroll", () => {
     if (window.pageYOffset > 100) {
         toTop.classList.add("active");

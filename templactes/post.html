@@ -14,64 +14,68 @@
 </head>
 
 <body>
+    <div id="hidden" style="display: none;">0</div>
 
     <nav>
         <i onclick="document.location='index.html'" class="bx bx-arrow-back"></i>
-        <p>Obuna qo'shish</p>
+        <p id="header">Obuna qo'shish</p>
     </nav>
-    
 
-    <div class="img">
-        <swiper-container class="mySwiper" pagination="true" pagination-clickable="true">
-            <swiper-slide><img id="profile-pic0" src="../img/Banner.jpg"></swiper-slide>
-            <swiper-slide><img id="profile-pic1" src="../img/Banner.jpg"></swiper-slide>
-            <swiper-slide><img id="profile-pic2" src="../img/Banner.jpg"></swiper-slide>
-            <swiper-slide><img id="profile-pic3" src="../img/Banner.jpg"></swiper-slide>
-        </swiper-container>
-        <br> <br>
-        <label for="input-file">Rasmni yuklang</label>
-        <br> 
-        <input type="file" name="" multiple="2" accept="image/jpeg image/png image/png " id="input-file">
+    <form action="" method="post">
 
-    </div>
+        <div class="post_img">
+            <swiper-container class="mySwiper" pagination="true" pagination-clickable="true">
+                <swiper-slide><img id="profile-pic0" src="../img/Banner.jpg"></swiper-slide>
+                <swiper-slide><img id="profile-pic1" src="../img/Banner.jpg"></swiper-slide>
+                <swiper-slide><img id="profile-pic2" src="../img/Banner.jpg"></swiper-slide>
+                <swiper-slide><img id="profile-pic3" src="../img/Banner.jpg"></swiper-slide>
+            </swiper-container>
+            <br> <br>
+            <center>
+                <label for="input-file" id="input_file">Rasmni yuklang</label>
+            </center>
+            <br>
+            <input type="file" name="" multiple="2" accept="image/jpeg image/png image/png " id="input-file">
 
-    
-    <div class="Selects">
-        
-        <select name="cars" id="cars">
-            <option value="#">Brand name:</option>
-            <option value="Chevrolet">Chevrolet</option>
-            <option value="Kia">Kia</option>
-            <option value="mercedes">Mercedes</option>
-            <option value="audi">Audi</option>
-        </select>
-        
-        <select name="cars" id="cars">
-            <option value="#">Cars:</option>
-            <option value="Gentra">Gentra</option>
-            <option value="Lacetti">Lacetti</option>
-            <option value="Matic">Matiz</option>
-            <option value="Onix">Onix</option>
-        </select>
-    </div>
+        </div>
 
-   <form action="">
 
-    <p class="name">Narxi</p>
-    <input type="num" placeholder="Narxi" class="input" id="input" required oninvalid="this.se('name ?')">
-    <p class="name">Adress</p>
-    <input type="text" placeholder="Adress" class="input">
-    <p class="name">Yili</p>
-    <input type="year" placeholder="Yili" class="input" required>
-    <p class="name">Tell</p>
-    <input type="tell" placeholder="Tell" class="input" required>
-    <p class="name">Boshqalar</p>
-    <textarea name="" id="" cols="30" rows="10" class="input other"></textarea> 
-    <button onclick="" id="input" >Submit</button>
+        <div class="post_Selects">
 
-   </form>
+            <select name="cars" id="post_cars">
+                <option value="#" id="brends">Brand name:</option>
+                <option value="Chevrolet">Chevrolet</option>
+                <option value="Kia">Kia</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+            </select>
+
+            <select name="cars" id="post_cars">
+                <option value="#" id="model">Cars:</option>
+                <option value="Gentra">Gentra</option>
+                <option value="Lacetti">Lacetti</option>
+                <option value="Matic">Matiz</option>
+                <option value="Onix">Onix</option>
+            </select>
+        </div>
+
+
+        <p class="post_name" id="price">Narxi</p>
+        <input type="num" placeholder="Narxi" class="post_input" id="inp_price" required oninvalid="this.se('name ?')">
+        <p class="post_name" id="adress">Manzil</p>
+        <input type="text" placeholder="Manzil" class="post_input" id="inp_adress">
+        <p class="post_name" id="year">Yili</p>
+        <input type="year" placeholder="Yili" class="post_input" id="inp_year" required>
+        <p class="post_name" id="tell">Tell</p>
+        <input type="tell" placeholder="Tell" id="inp_tell" class="post_input" required>
+        <p class="post_name" id="others">Boshqalar</p>
+        <textarea name="" id="inp_others" cols="30" placeholder="others" rows="10" class="post_input post_other"></textarea>
+        <button onclick="" id="submit">Submit</button>
+
+    </form>
 
     <br><br><br><br><br>
+    <script src="../js/post.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js">
         import Swiper from "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs";
     </script>

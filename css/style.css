@@ -21,7 +21,7 @@ nav p {
   font-family: "Itim", cursive;
 }
 
-.banner {
+.main_banner {
   background-image: url(../img/Banner.jpg);
   background-attachment: scroll;
   background-size: cover;
@@ -30,7 +30,7 @@ nav p {
   height: 200px;
 }
 
-.banner p {
+.main_banner p {
   color: #dbff00;
   font-style: 20px;
   font-weight: 700;
@@ -38,7 +38,7 @@ nav p {
   margin-left: 1%;
 }
 
-.search {
+.main_search {
   width: 80%;
   height: 50px;
   background-color: #3498db;
@@ -50,7 +50,7 @@ nav p {
   color: white;
 }
 
-.card {
+.main_card {
   width: 90%;
   padding-bottom: 20px;
   height: auto;
@@ -61,7 +61,7 @@ nav p {
   align-items: center;
 }
 
-.search:before {
+.main_search:before {
   position: absolute;
   height: 100%;
   left: 0;
@@ -71,23 +71,23 @@ nav p {
   width: 60px;
 }
 
-.search:active {
+.main_search:active {
   background-color: #2979ae;
   transform: scale(0.9, 0.9);
 }
 
-.search p {
+.main_search p {
   text-align: center;
   font-size: 25px;
   margin-top: 10px;
 }
 
-.search i {
+.main_search i {
   margin-top: 12px;
   font-size: 25px;
 }
 
-.card {
+.main_card {
   width: 90%;
   padding-bottom: 20px;
   height: auto;
@@ -115,7 +115,7 @@ swiper-slide {
   
 }
 
-.images {
+.main_images {
   border-radius: 10px;
   padding: 5px;
 }
@@ -130,7 +130,7 @@ swiper-slide img {
 
 }
 
-.heart {
+.main_heart {
   width: 30px;
   height: 30px;
   border: none;
@@ -143,51 +143,51 @@ swiper-slide img {
   z-index: 1;
 }
 
-.heart i {
+.main_heart i {
   font-size: 25px;
   margin-top: 5px;
 }
 
-.texts {
+.main_texts {
   padding-left: 15px;
 }
 
-.texts p:first-child {
+.main_texts p:first-child {
   font-size: 15px;
   margin-top: 20px;
 }
 
-.texts p:nth-child(2) {
+.main_texts p:nth-child(2) {
   font-size: 25px;
   margin-top: 10px;
   font-weight: 700;
 }
 
-.texts p:last-child {
+.main_texts p:last-child {
   font-size: 20px;
   padding-top: 5px;
   font-weight: normal;
   margin: 0;
 }
 
-.loaction {
+.main_loaction {
   margin-left: -5px;
   display: flex;
   margin-top: 15px;
 }
 
-.loaction img {
+.main_loaction img {
   width: 25px;
   height: 25;
 }
 
-.btn {
+.main_btn {
   width: 90%;
   margin-left: 5%;
   margin-top: 60px;
 }
 
-.btn button {
+.main_btn button {
   width: 100%;
   height: 50px;
   border: none;
@@ -196,15 +196,15 @@ swiper-slide img {
   font-size: 20px;
   color: white;
 }
-.btn button i{
+.main_btn button i{
   font-style: normal;
 }
-.btn button:active {
+.main_btn button:active {
   transform: scale(0.9, 0.9);
 
 }
 
-.navbar {
+.main_navbar {
   width: 100%;
   height: 70px;
   background-color: #DEDEDE;
@@ -225,22 +225,22 @@ swiper-slide img {
   margin: 2%;
 } */
 
-.home,
-.like,
-.plus,
+.main_home,
+.main_like,
+.main_plus,
 i {
   font-size: 25px;
   color: black;
 }
 
-.home,
-.like,
-.plus,
+.main_home,
+.main_like,
+.main_plus,
 p {
   font-size: 17px;
 }
 
-.btn_up{
+.main_btn_up{
   border: none;
   border-radius: 50%;
   width: 50px;
@@ -252,7 +252,7 @@ p {
 }
 
 
-.to-top {
+.main_to-top {
   background: white;
   position: fixed;
   bottom: 16px;
@@ -273,7 +273,7 @@ p {
   border: 1px solid rgb(185, 173, 173);
 }
 
-.to-top.active {
+.main_to-top.active {
   bottom:70px;
   pointer-events: auto;
   opacity:1;

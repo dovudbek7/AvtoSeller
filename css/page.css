@@ -26,13 +26,13 @@ nav p {
     font-size: 20px;
 }
 
-.btn {
+.page_btn {
     margin-top: 20px;
     margin-left: 5%;
     display: flex;
 }
 
-.btn button {
+.page_btn button {
     width: 44%;
     height: 40px;
     border-radius: 29px;
@@ -43,15 +43,15 @@ nav p {
     font-size: 15px;
 }
 
-.btn button:active {
+.page_btn button:active {
     transform: scale(0.9, 0.9);
 }
 
-.cards {
+.page_cards {
     margin-left: 5%;
 }
 
-.car {
+.page_car {
     margin-top: 10px;
     width: 90%;
     border: 1px solid black;
@@ -63,19 +63,19 @@ nav p {
     justify-content: space-between;
 }
 
-.car p {
+.page_car p {
     padding: 10px;
 }
 
-.icon {
+.page_icon {
     padding: 10px;
     display: flex;
 }
 
-.icon img {
+.page_icon img {
     width: 25px;
     margin-left: 10px;
 }
-.icon img:active{
+.page_icon img:active{
     transform: scale(0.9,0.9);
 }

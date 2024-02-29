@@ -17,42 +17,42 @@ nav i {
   color: blue;
 }
 
-.cost {
+.card_cost {
   padding-left: 5%;
   display: flex;
   margin-top: 20px;
   justify-content: space-between;
   padding-bottom: 10px;
 }
-.cost p:first-child {
+.card_cost p:first-child {
   color: blue;
   font-size: 15px;
 }
-.cost p:last-child {
+.card_cost p:last-child {
   font-size: 25px;
   margin-top: 10px;
   font-weight: 700;
 }
-.cost div:last-child i {
+.card_cost div:last-child i {
   font-size: 25px;
   margin-left: -50px;
   font-weight: 500;
   color: black;
 }
 
-.info {
+.card_info {
   display: flex;
   justify-content: space-between;
   padding-left: 5%;
   padding-right: 5%;
   margin-top: 20px;
 }
-.info p {
+.card_info p {
   color: #868686;
   font-size: 15px;
   font-weight: 500;
 }
-.others {
+.card_others {
   background-color: #e8e8e8;
   width: 90%;
   height: auto;
@@ -61,18 +61,18 @@ nav i {
   margin-top: 20px;
   color: #717171;
 }
-.others p {
+.card_others p {
   padding: 7%;
   font-size: 17px;
 }
 
-.btn {
+.card_btn {
   width: 90%;
   margin-left: 5%;
   margin-top: 60px;
 }
 
-.btn button {
+.card_btn button {
   width: 100%;
   height: 50px;
   border: none;
@@ -81,15 +81,15 @@ nav i {
   font-size: 20px;
   color: white;
 }
-.btn button i{
+.card_btn button i{
   font-style: normal;
 }
-.btn button:active {
+.card_btn button:active {
   transform: scale(0.9, 0.9);
 
 }
 
-.liked {
+.card_liked {
   margin-top: 40px;
   background-color: #d4d4d4;
   width: 100%;
@@ -100,7 +100,7 @@ nav i {
   padding-left: 2%;
 }
 
-.card {
+.card_card {
   width: 90%;
   padding-bottom: 20px;
   height: auto;
@@ -111,7 +111,7 @@ nav i {
   align-items: center;
 }
 
-.images {
+.card_images {
   border-radius: 10px;
   padding: 5px;
 }
@@ -141,7 +141,7 @@ swiper-slide {
   justify-content: center;
   border-radius: 15px;
 }
-.images {
+.card_images {
   border-radius: 10px;
   padding: 5px;
 }
@@ -154,7 +154,7 @@ swiper-slide img {
   border-radius: 10px 10px 0 0;
   padding: 2px;
 }
-.heart {
+.card_heart {
   width: 30px;
   height: 30px;
   border: none;
@@ -166,36 +166,36 @@ swiper-slide img {
   position: relative;
   z-index: 1;
 }
-.heart i {
+.card_heart i {
   color: black;
   font-size: 25px;
   margin-top: 3px;
 }
-.texts {
+.card_texts {
   padding-left: 15px;
 }
-.texts p:first-child {
+.card_texts p:first-child {
   font-size: 15px;
   margin-top: 20px;
 }
-.texts p:nth-child(2) {
+.card_texts p:nth-child(2) {
   font-size: 25px;
   margin-top: 10px;
   font-weight: 700;
 }
-.texts p:last-child {
+.card_texts p:last-child {
   font-size: 20px;
   padding-top: 5px;
   font-weight: normal;
   margin: 0;
 }
 
-.loaction {
+.card_loaction {
   margin-left: -5px;
   display: flex;
   margin-top: 15px;
 }
-.loaction img {
+.card_loaction img {
   width: 25px;
   height: 25;
 }
