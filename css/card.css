@@ -1,4 +1,4 @@
-* {
+  * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
@@ -115,16 +115,6 @@ nav i {
   border-radius: 10px;
   padding: 5px;
 }
-
-/* .card {
-  width: 90%;
-  height: 440px;
-  margin-left: 5%;
-  margin-top: 50px;
-  border-radius: 10px;
-  border: 1px solid rgb(178, 176, 176);
-  align-items: center;
-} */
 
 swiper-container {
   width: 100%;

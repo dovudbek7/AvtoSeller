@@ -64,7 +64,7 @@ label {
   padding-left: 10px;
 }
 
-button{
+.search_button{
   width: 90%;
   margin-left: 5%;
   height: 40px;
@@ -76,6 +76,6 @@ button{
   color: white;
   font-size: 20px;
 }
-button:active{
+.search_button:active{
   transform: scale(0.9,0.9);
 }
