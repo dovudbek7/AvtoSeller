@@ -1,4 +1,4 @@
-  * {
+* {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
@@ -6,10 +6,12 @@
   text-decoration: none;
   font-family: "Poppins", sans-serif;
 }
-nav {
+
+.card_nav {
   width: 100%;
 }
-nav i {
+
+.card_nav i {
   font-size: 25px;
   margin: 10px;
   margin-top: 10px;
@@ -24,15 +26,18 @@ nav i {
   justify-content: space-between;
   padding-bottom: 10px;
 }
+
 .card_cost p:first-child {
   color: blue;
   font-size: 15px;
 }
+
 .card_cost p:last-child {
   font-size: 25px;
   margin-top: 10px;
   font-weight: 700;
 }
+
 .card_cost div:last-child i {
   font-size: 25px;
   margin-left: -50px;
@@ -47,11 +52,13 @@ nav i {
   padding-right: 5%;
   margin-top: 20px;
 }
+
 .card_info p {
   color: #868686;
   font-size: 15px;
   font-weight: 500;
 }
+
 .card_others {
   background-color: #e8e8e8;
   width: 90%;
@@ -61,6 +68,7 @@ nav i {
   margin-top: 20px;
   color: #717171;
 }
+
 .card_others p {
   padding: 7%;
   font-size: 17px;
@@ -81,9 +89,11 @@ nav i {
   font-size: 20px;
   color: white;
 }
-.card_btn button i{
+
+.card_btn button i {
   font-style: normal;
 }
+
 .card_btn button:active {
   transform: scale(0.9, 0.9);
 
@@ -116,12 +126,12 @@ nav i {
   padding: 5px;
 }
 
-swiper-container {
+.card-swiper-container {
   width: 100%;
   height: 100%;
 }
 
-swiper-slide {
+.card-swiper-slide {
   width: 90px;
   height: 200px;
   text-align: center;
@@ -131,12 +141,13 @@ swiper-slide {
   justify-content: center;
   border-radius: 15px;
 }
+
 .card_images {
   border-radius: 10px;
   padding: 5px;
 }
 
-swiper-slide img {
+.card-swiper-slide img {
   display: block;
   width: 100%;
   height: 100%;
@@ -144,6 +155,7 @@ swiper-slide img {
   border-radius: 10px 10px 0 0;
   padding: 2px;
 }
+
 .card_heart {
   width: 30px;
   height: 30px;
@@ -156,23 +168,28 @@ swiper-slide img {
   position: relative;
   z-index: 1;
 }
+
 .card_heart i {
   color: black;
   font-size: 25px;
   margin-top: 3px;
 }
+
 .card_texts {
   padding-left: 15px;
 }
+
 .card_texts p:first-child {
   font-size: 15px;
   margin-top: 20px;
 }
+
 .card_texts p:nth-child(2) {
   font-size: 25px;
   margin-top: 10px;
   font-weight: 700;
 }
+
 .card_texts p:last-child {
   font-size: 20px;
   padding-top: 5px;
@@ -185,8 +202,8 @@ swiper-slide img {
   display: flex;
   margin-top: 15px;
 }
+
 .card_loaction img {
   width: 25px;
   height: 25;
 }
-

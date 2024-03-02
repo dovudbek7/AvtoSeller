@@ -16,18 +16,18 @@
 <body>
     <div id="hidden" style="display: none;">1</div>
 
-    <nav>
+    <nav class="result_nav">
         <i onclick="document.location='index.html'" class="bx bx-arrow-back"></i>
         <p id="results">Natijalar</p>
     </nav>
 
     <div class="result_card">
         <div class="result_images" onclick="document.location='card.html'">
-            <swiper-container class="mySwiper" pagination="true" pagination-clickable="true">
-                <swiper-slide><img src="../img/Banner.jpg" alt /></swiper-slide>
-                <swiper-slide><img src="../img/Banner.jpg" alt /></swiper-slide>
-                <swiper-slide><img src="../img/Banner.jpg" alt /></swiper-slide>
-                <swiper-slide><img src="../img/Banner.jpg" alt /></swiper-slide>
+            <swiper-container class="mySwiper result-swiper-container" pagination="true" pagination-clickable="true">
+                <swiper-slide class="result-swiper-slide"><img src="../img/Banner.jpg" alt /></swiper-slide>
+                <swiper-slide class="result-swiper-slide"><img src="../img/Banner.jpg" alt /></swiper-slide>
+                <swiper-slide class="result-swiper-slide"><img src="../img/Banner.jpg" alt /></swiper-slide>
+                <swiper-slide class="result-swiper-slide"><img src="../img/Banner.jpg" alt /></swiper-slide>
             </swiper-container>
 
         </div>
@@ -55,8 +55,8 @@
     <script src="../js/results.js"></script>
     <script>
         import Swiper from "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs";
-      </script>
-      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
 </body>
 
 </html>

@@ -1,58 +1,58 @@
-    * {
-        margin: 0px;
-        padding: 0px;
-        box-sizing: border-box;
-        max-width: 450px;
-        text-decoration: none;
-        font-family: "Poppins", sans-serif;
-    }
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    max-width: 450px;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
 
-    nav {
-        width: 100%;
-        display: flex;
-    }
+.ss_nav {
+    width: 100%;
+    display: flex;
+}
 
-    nav i {
-        font-size: 25px;
-        margin: 10px;
-        margin-top: 10px;
-        margin-left: 3%;
-        color: blue;
-    }
+.ss_nav i {
+    font-size: 25px;
+    margin: 10px;
+    margin-top: 10px;
+    margin-left: 3%;
+    color: blue;
+}
 
-    nav p {
-        font-weight: 200;
-        margin-top: 12px;
-        font-size: 20px;
-    }
+.ss_nav p {
+    font-weight: 200;
+    margin-top: 12px;
+    font-size: 20px;
+}
 
-    .ss_Selects {
-        margin-left: 5%;
-        margin-top: 20px;
-    }
+.ss_Selects {
+    margin-left: 5%;
+    margin-top: 20px;
+}
 
-    .ss_brands {
-        margin-top: 10px;
-        padding: 10px;
-        width: 90%;
-        height: 50px;
-        font-size: 20px;
-        font-weight: 500;
-    }
+.ss_brands {
+    margin-top: 10px;
+    padding: 10px;
+    width: 90%;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 500;
+}
 
-    .subscribe_button {
-        width: 90%;
-        margin-left: 5%;
-        height: 40px;
-        border-radius: 10px;
-        border: none;
-        bottom: 10%;
-        position: fixed;
-        background-color: #72A1FD;
-        color: white;
-        font-size: 20px;
-    }
+.subscribe_button {
+    width: 90%;
+    margin-left: 5%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    bottom: 10%;
+    position: fixed;
+    background-color: #72A1FD;
+    color: white;
+    font-size: 20px;
+}
 
-    .subscribe_button:active {
-        transform: scale(0.9, 0.9);
-    }
+.subscribe_button:active {
+    transform: scale(0.9, 0.9);
+}

@@ -16,7 +16,7 @@
 <body>
     <div id="hidden" style="display: none;">0</div>
 
-    <nav>
+    <nav class="post_nav">
         <i onclick="document.location='index.html'" class="bx bx-arrow-back"></i>
         <p id="header">Obuna qo'shish</p>
     </nav>
@@ -24,11 +24,11 @@
     <form action="" method="post">
 
         <div class="post_img">
-            <swiper-container class="mySwiper" pagination="true" pagination-clickable="true">
-                <swiper-slide><img id="profile-pic0" src="../img/Banner.jpg"></swiper-slide>
-                <swiper-slide><img id="profile-pic1" src="../img/Banner.jpg"></swiper-slide>
-                <swiper-slide><img id="profile-pic2" src="../img/Banner.jpg"></swiper-slide>
-                <swiper-slide><img id="profile-pic3" src="../img/Banner.jpg"></swiper-slide>
+            <swiper-container class="mySwiper post-swiper-container" pagination="true" pagination-clickable="true">
+                <swiper-slide class="post-"><img id="profile-pic0" src="../img/Banner.jpg"></swiper-slide>
+                <swiper-slide class="post-"><img id="profile-pic1" src="../img/Banner.jpg"></swiper-slide>
+                <swiper-slide class="post-"><img id="profile-pic2" src="../img/Banner.jpg"></swiper-slide>
+                <swiper-slide class="post-"><img id="profile-pic3" src="../img/Banner.jpg"></swiper-slide>
             </swiper-container>
             <br> <br>
             <center>
@@ -69,7 +69,8 @@
         <p class="post_name" id="tell">Tell</p>
         <input type="tell" placeholder="Tell" id="inp_tell" class="post_input" required>
         <p class="post_name" id="others">Boshqalar</p>
-        <textarea name="" id="inp_others" cols="30" placeholder="others" rows="10" class="post_input post_other"></textarea>
+        <textarea name="" id="inp_others" cols="30" placeholder="others" rows="10"
+            class="post_input post_other"></textarea>
         <button class="post_button" onclick="" id="submit">Submit</button>
 
     </form>
