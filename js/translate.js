@@ -1,7 +1,7 @@
 var data = {
     "uz":
     {
-        "search": "Qidirmoq",
+        "search": "Qidirmoq ",
         "home": "AvtoSeller",
         "liked": "Saqlangan",
         "plus": "Qo'shish",
@@ -9,7 +9,7 @@ var data = {
     },
     "ru":
     {
-        "search": "поиск",
+        "search": "поиск ",
         "home": "AvtoSeller",
         "liked": "понравши",
         "plus": "дабавить",
